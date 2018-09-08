@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_account_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.CreateProfileActivity">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bg" />
+
+
+    <ScrollView
+        android:id="@+id/regForm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/linear_account"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cardView_account_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="70dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/md_white_1000"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:id="@+id/linear_account_input_details"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="50dp"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <LinearLayout
+                                android:visibility="invisible"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_marginTop="10dp"
+                                android:gravity="center">
+                                <EditText
+                                    android:id="@+id/lat"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:hint="latitude"
+                                    android:typeface="monospace"
+                                    android:gravity="center"
+                                    android:inputType="text"
+                                    android:ems="6"/>
+
+                                <ImageButton
+                                    android:id="@+id/upImg"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:backgroundTint="@color/md_pink_400"
+                                    android:background="@drawable/ic_action_name"
+                                    android:layout_gravity="center"/>
+
+                                <EditText
+                                    android:id="@+id/longi"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:hint="longitude"
+                                    android:typeface="monospace"
+                                    android:gravity="center"
+                                    android:inputType="text"
+                                    android:ems="6"/>
+                            </LinearLayout>
+
+                            <EditText
+                                android:id="@+id/nameEditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:padding="2dp"
+                                android:background="@drawable/cicle_bg"
+                                android:drawableStart="@drawable/ic_person2"
+                                android:drawableTint="@color/md_grey_400"
+                                android:hint="Name"
+                                android:inputType="textPersonName"
+                                android:textAlignment="textStart"
+                                android:drawablePadding="10dp"
+                                android:textColor="@color/md_grey_500"
+                                android:textColorHint="@color/md_grey_500"
+                                android:fontFamily="sans-serif-condensed" />
+
+                            <EditText
+                                android:id="@+id/phoneEditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:padding="2dp"
+                                android:layout_marginTop="5dp"
+                                android:background="@drawable/cicle_bg"
+                                android:drawableStart="@drawable/ic_call2"
+                                android:drawablePadding="10dp"
+                                android:drawableTint="@color/md_grey_400"
+                                android:hint="+880"
+                                android:inputType="phone"
+                                android:textAlignment="textStart"
+                                android:textColor="@color/md_grey_500"
+                                android:textColorHint="@color/md_grey_500"
+                                android:fontFamily="sans-serif-condensed" />
+
+                            <Button
+                                android:id="@+id/continueBtn"
+                                android:layout_width="100dp"
+                                android:layout_height="40dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/rectangle_btn"
+                                android:text="Continue"
+                                android:textStyle="bold"
+                                android:textColor="@color/md_white_1000"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    android:fontFamily="cursive"
+                    android:alpha=".7"
+                    android:text="Complete your profile here" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/imageContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <bd.ac.pstu.rezwan12cse.bounduley12.views.CircularImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/userimage"
+                    app:border_color="@color/md_indigo_100"
+                    app:border="true"
+                    app:shadow="true"
+                    app:shadow_radius="5dp"
+                    app:shadow_color="@color/md_indigo_50"
+                    app:border_width="5dp"/>
+
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="@dimen/progress_bar_size"
+        android:layout_height="@dimen/progress_bar_size"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"/>
+</RelativeLayout>

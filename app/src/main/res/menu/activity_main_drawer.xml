@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_f"
+            android:icon="@drawable/ic_friends"
+            android:title="Friends" />
+        <item
+            android:id="@+id/nav_m"
+            android:icon="@drawable/ic_action_name"
+            android:title="MapView" />
+        <!--
+        <item
+            android:id="@+id/nav_p"
+            android:icon="@drawable/ic_person"
+            android:title="MyProfile" />
+        <item
+            android:id="@+id/nav_signout"
+            android:icon="@drawable/ic_signout"
+            android:title="SignOut" />
+
+            -->
+    </group>
+
+    <item android:title="Communicate :">
+        <menu>
+            <item
+                android:id="@+id/nav_facebook"
+                android:icon="@drawable/ic_bt_login_facebook"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_about"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>

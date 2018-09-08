@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="App" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/md_indigo_A100</item>
+        <item name="colorPrimaryDark">@color/md_indigo_200</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowEnterTransition">@transition/exclude_system_panel_animation</item>
+        <item name="actionModeBackground">@color/primary</item>
+    </style>
+
+</resources>

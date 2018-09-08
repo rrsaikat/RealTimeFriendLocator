@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/md_teal_300"
+    tools:context="bd.ac.pstu.rezwan12cse.bounduley12.MyAppWithFirebase.SpinnerActivity">
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:fadingEdge="horizontal"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:textColor="#ff4500"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:alpha="0.7"
+        android:text="Who you are?"
+        android:fontFamily="serif-monospace"
+        android:textSize="23dp"/>
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/spinner2"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent">
+
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:srcCompat="@drawable/userimage"
+            android:layout_gravity="center"/>
+
+
+
+        <EditText
+            android:id="@+id/editText1"
+            android:hint="Password"
+            android:ems="10"
+            android:focusable="true"
+            android:gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/spinner1"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:inputType="textPassword"
+            android:background="@drawable/cicle_bg"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_below="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.7"
+            android:layout_marginTop="10dp"
+            android:text="Please give your versity ID here!"
+            android:textColor="@color/md_white_1000"
+            android:fontFamily="monospace"
+            android:textSize="12dp"/>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="65dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/editText1"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"
+            android:text="Go"
+            android:textColor="@color/md_white_1000"
+            android:background="@drawable/rectangle_button"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:alpha=".9"
+            android:text="Developed by REZWAN"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textColor="@color/md_white_1000"
+            android:typeface="monospace" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:alpha=".9"
+            android:text="Copy Right 2017-18"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textColor="@color/md_white_1000"
+            android:typeface="monospace" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:alpha=".9"
+            android:text="Email: rrsaikat88@gmail.com"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textColor="@color/md_white_1000"
+            android:typeface="monospace" />
+    </LinearLayout>
+
+</RelativeLayout>

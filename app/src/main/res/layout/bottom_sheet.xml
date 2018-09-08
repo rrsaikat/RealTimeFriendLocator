@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <LinearLayout
+        android:id="@+id/bottom_sheet"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:clipToPadding="true"
+        android:background="@android:color/holo_orange_light"
+        app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/t_image"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/userimage"
+                    android:layout_marginStart="30dp"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="10dp">
+                    <TextView
+                        android:id="@+id/tv_active"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:typeface="monospace"
+                        android:textSize="11dp"
+                        android:textColor="@color/md_white_1000"
+                        android:text="Active Now"/>
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/iv_active"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_marginTop="2dp"
+                        android:src="@color/md_light_green_A400"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginStart="75dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:typeface="monospace"
+                        android:textSize="12sp"
+                        android:id="@+id/t_name"
+                        android:textColor="@color/md_white_1000"
+                        android:text="Name"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:typeface="monospace"
+                        android:textSize="12sp"
+                        android:id="@+id/t_email"
+                        android:textColor="@color/md_white_1000"
+                        android:text="Email"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:typeface="monospace"
+                        android:textSize="12sp"
+                        android:id="@+id/t_mob"
+                        android:textColor="@color/md_white_1000"
+                        android:text="01772474181"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_location">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Your location is :"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/md_white_1000"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+                <EditText
+                    android:id="@+id/lat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="latitude"
+                    android:textSize="10sp"
+                    android:textColorHint="@color/md_white_1000"
+                    android:textColor="@color/md_white_1000"
+                    android:typeface="monospace"
+                    android:gravity="center"
+                    android:inputType="none"
+                    android:editable="false"
+                    android:alpha=".5"
+                    android:ems="6"/>
+
+                <ImageButton
+                    android:id="@+id/upImg"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:backgroundTint="@color/md_pink_400"
+                    android:background="@drawable/ic_action_name"
+                    android:layout_gravity="center"/>
+
+                <EditText
+                    android:id="@+id/longi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="longitude"
+                    android:textSize="10sp"
+                    android:textColorHint="@color/md_white_1000"
+                    android:textColor="@color/md_white_1000"
+                    android:typeface="monospace"
+                    android:gravity="center"
+                    android:inputType="none"
+                    android:editable="false"
+                    android:alpha=".5"
+                    android:ems="6"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

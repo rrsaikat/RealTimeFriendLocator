@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="@color/md_teal_300"
+tools:context="bd.ac.pstu.rezwan12cse.bounduley12.MyAppWithFirebase.UserRegister">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:weightSum="1">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:src="@drawable/userimage"
+        android:layout_marginBottom="10dp"
+        app:civ_border_color="@color/white_greyish"
+        app:civ_border_width="2dp"
+        android:layout_weight="0.39" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload your image here"
+        android:typeface="monospace"
+        android:textSize="10sp"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <EditText
+            android:id="@+id/la"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="latitude"
+            android:typeface="monospace"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:inputType="text"
+            android:ems="6"/>
+
+        <ImageButton
+            android:id="@+id/F_upImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/ic_place"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/lo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="longitude"
+            android:typeface="monospace"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:inputType="text"
+            android:ems="6"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/F_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:typeface="monospace"
+        android:hint="Name"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"/>
+
+
+    <EditText
+        android:id="@+id/F_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:typeface="monospace"
+        android:hint="Email"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"/>
+
+
+    <EditText
+        android:id="@+id/F_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:typeface="monospace"
+        android:hint="Mobile"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"/>
+
+
+    <CheckBox
+        android:id="@+id/terms_conditions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:text="I am agree with terms and conditions"
+        android:typeface="monospace"
+        android:textColor="@color/white"
+        android:textSize="11sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_signup"
+        android:text="Signup"
+        android:textColor="@color/md_white_1000"
+        android:typeface="monospace"
+        android:background="@drawable/rectangle_button"
+        />
+
+
+    <TextView
+        android:id="@+id/signup_loginhere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="10sp"
+        android:text="Your profile is null!"
+        android:typeface="monospace"
+        android:gravity="center"
+        android:textColor="@color/white_greyish"/>
+
+
+</LinearLayout>
+
+</LinearLayout>
