@@ -59,7 +59,7 @@ dependencies {
     implementation 'com.android.support:support-v4:26.0.0-beta1'
 
     compile 'com.github.jlmd:AnimatedCircleLoadingView:1.1.5@aar'
-    //compile 'com.roger.catloadinglibrary:catloadinglibrary:1.0.4' //
+    //compile 'com.roger.catloadinglibrary:catloadinglibrary:1.0.4'
 
     implementation 'com.budiyev.android:circular-progress-bar:1.2.0'
 
