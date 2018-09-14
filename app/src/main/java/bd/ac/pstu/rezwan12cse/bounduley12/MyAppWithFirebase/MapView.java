@@ -94,7 +94,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
-import bd.ac.pstu.rezwan12cse.bounduley12.Launcher_Activity;
+import bd.ac.pstu.rezwan12cse.bounduley12.LauncherActivity;
 import bd.ac.pstu.rezwan12cse.bounduley12.Model.FireModel;
 import bd.ac.pstu.rezwan12cse.bounduley12.R;
 import cn.pedant.SweetAlert.SweetAlertDialog;

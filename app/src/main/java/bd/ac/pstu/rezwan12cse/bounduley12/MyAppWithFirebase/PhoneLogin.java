@@ -30,7 +30,7 @@ import com.google.firebase.auth.PhoneAuthProvider;
 
 import java.util.concurrent.TimeUnit;
 
-import bd.ac.pstu.rezwan12cse.bounduley12.Launcher_Activity;
+import bd.ac.pstu.rezwan12cse.bounduley12.LauncherActivity;
 import bd.ac.pstu.rezwan12cse.bounduley12.R;
 
 public class PhoneLogin extends AppCompatActivity implements View.OnClickListener {

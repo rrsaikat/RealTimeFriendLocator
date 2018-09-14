@@ -150,6 +150,9 @@
 
     <!--Firebase errors-->
     <string name="permission_denied_error">Please check your rules to access the Firebase Realtime Database</string>
+    <!--Notifications-->
+    <string name="new_like_channel_name">New Like</string>
+    <string name="new_comment_channel_name">New Comment</string>
 
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
