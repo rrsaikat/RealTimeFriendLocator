@@ -1,8 +1,11 @@
 # RealTimeFriendLocator
-<p>The title of the project is “RealTimeFriendLocator”. My goal is to develop a location based social networking application by which all the students of CSE 12th batch, PSTU can get connected and interect with each other so easily. The main objectives is to build up a community in our batch so that one can have a way to see who is where and whats they are planning in the future after completing their graduation. By this application one can stay in touch through posting , commenting and sharing their location on google mapview.
+<p align="center">The title of the project is “RealTimeFriendLocator”. My goal is to develop a location based social networking application by which all the students of CSE 12th batch, PSTU can get connected and interect with each other so easily. The main objectives is to build up a community in our batch so that one can have a way to see who is where and whats they are planning in the future after completing their graduation. By this application one can stay in touch through posting , commenting and sharing their location on google mapview.
 This proposed system provides the exact geo-position of users depending upon their current location. Geo-position would be displayed on the mapview on our android set and all the datas of the authenticated users in this application would be retrived from the server of firebase database. 
 </p>
 
+<p align="start">
+  <img src="https://github.com/rrsaikat/CircularMorphProgressBarLibrary/blob/master/start.gif" height="390" width="250"/>
+</p>
 
 ## Fearures
     	User can manage their own account.
@@ -14,8 +17,7 @@ This proposed system provides the exact geo-position of users depending upon the
     	Calculate location from one to another and give best routes.
     	User data can be maintained by admin.
     
-## Benefits   
-The benefits for RealTimeFriendLocator
+## Benefits
     	Reduction of time to find a class-mate
     	Can builds community by social networking.
     	Online based data accessibility and storage.
@@ -30,7 +32,7 @@ The benefits for RealTimeFriendLocator
 
 ## Logged In & User Profiles
 
-##Complain Request and Status:
+## Complain Request and Status
 If user has complain in any post that contains violence, bullying, threats, hate speech, tragic events and sexually explicit contents then nobody will see the post. But user can’t remove his or her own complain.
 
 
@@ -38,8 +40,8 @@ If user has complain in any post that contains violence, bullying, threats, hate
 ## LETTER OF APPROVAL
 Certified that the work contained in the project entitled “RealTimeFriendLocator”, by Md. Rezwan Rabbi have been carried out under my supervision and that this work has not been submitted elsewhere for a degree.
 
-MD. MONIBOR RAHMAN
-Assistant Professor
-Electrical & Electronic Engineering (EEE) 
-Patuakhali Science & Technology University
+    MD. MONIBOR RAHMAN
+    Assistant Professor
+    Electrical & Electronic Engineering (EEE) 
+    Patuakhali Science & Technology University
 
