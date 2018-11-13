@@ -4,7 +4,7 @@ This proposed system provides the exact geo-position of users depending upon the
 </p>
 
 <p align="center">
-  <img src="https://github.com/rrsaikat/RealTimeFriendLocator/blob/master/11.png" height="490" width="280"/>
+  <img src="https://github.com/rrsaikat/RealTimeFriendLocator/blob/master/55.png" height="490" width="260"/>
 </p>
 
 ## Fearures
@@ -26,27 +26,27 @@ This proposed system provides the exact geo-position of users depending upon the
 
 ## User Registration
 <p align="center">
-  <img src="https://github.com/rrsaikat/RealTimeFriendLocator/blob/master/11.png" height="490" width="280"/>
-  <img src="https://github.com/rrsaikat/RealTimeFriendLocator/blob/master/22.png" height="490" width="280"/>
+  <img src="https://github.com/rrsaikat/RealTimeFriendLocator/blob/master/11.png" height="490" width="260"/>
+  <img src="https://github.com/rrsaikat/RealTimeFriendLocator/blob/master/22.png" height="490" width="260"/>
 </p>
 
 
 ## User Activities
 <p align="center">
-  <img src="https://github.com/rrsaikat/RealTimeFriendLocator/blob/master/44.png" height="490" width="280"/>
-  <img src="https://github.com/rrsaikat/RealTimeFriendLocator/blob/master/55.png" height="490" width="280"/>
+  <img src="https://github.com/rrsaikat/RealTimeFriendLocator/blob/master/44.png" height="490" width="260"/>
+  <img src="https://github.com/rrsaikat/RealTimeFriendLocator/blob/master/55.png" height="490" width="260"/>
 </p>
 
 ## Logged In & User Profiles
 <p align="center">
-  <img src="https://github.com/rrsaikat/RealTimeFriendLocator/blob/master/66.png" height="490" width="280"/>
-  <img src="https://github.com/rrsaikat/RealTimeFriendLocator/blob/master/77.png" height="490" width="280"/>
+  <img src="https://github.com/rrsaikat/RealTimeFriendLocator/blob/master/66.png" height="490" width="260"/>
+  <img src="https://github.com/rrsaikat/RealTimeFriendLocator/blob/master/77.png" height="490" width="260"/>
 </p>
 
 ## Complain Request and Status
 If user has complain in any post that contains violence, bullying, threats, hate speech, tragic events and sexually explicit contents then nobody will see the post. But user can’t remove his or her own complain.
 <p align="center">
-  <img src="https://github.com/rrsaikat/RealTimeFriendLocator/blob/master/33.png" height="490" width="280"/>
+  <img src="https://github.com/rrsaikat/RealTimeFriendLocator/blob/master/33.png" height="490" width="260"/>
 </p>
 
 
