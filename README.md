@@ -1,10 +1,10 @@
 # RealTimeFriendLocator
-<p align="center">The title of the project is “RealTimeFriendLocator”. My goal is to develop a location based social networking application by which all the students of CSE 12th batch, PSTU can get connected and interect with each other so easily. The main objectives is to build up a community in our batch so that one can have a way to see who is where and whats they are planning in the future after completing their graduation. By this application one can stay in touch through posting , commenting and sharing their location on google mapview.
+<p align="justify">The title of the project is “RealTimeFriendLocator”. My goal is to develop a location based social networking application by which all the students of CSE 12th batch, PSTU can get connected and interect with each other so easily. The main objectives is to build up a community in our batch so that one can have a way to see who is where and whats they are planning in the future after completing their graduation. By this application one can stay in touch through posting , commenting and sharing their location on google mapview.
 This proposed system provides the exact geo-position of users depending upon their current location. Geo-position would be displayed on the mapview on our android set and all the datas of the authenticated users in this application would be retrived from the server of firebase database. 
 </p>
 
-<p align="start">
-  <img src="https://github.com/rrsaikat/CircularMorphProgressBarLibrary/blob/master/start.gif" height="390" width="250"/>
+<p align="center">
+  <img src="https://github.com/rrsaikat/CircularMorphProgressBarLibrary/blob/master/start.gif" height="490" width="280"/>
 </p>
 
 ## Fearures
@@ -25,15 +25,26 @@ This proposed system provides the exact geo-position of users depending upon the
     	Finds a friend as fast as possible by sharing realtime location.
 
 ## User Registration
-
+<p align="center">
+  <img src="https://github.com/rrsaikat/CircularMorphProgressBarLibrary/blob/master/start.gif" height="490" width="280"/>
+</p>
 
 
 ## User Activities
+<p align="center">
+  <img src="https://github.com/rrsaikat/CircularMorphProgressBarLibrary/blob/master/start.gif" height="490" width="280"/>
+</p>
 
 ## Logged In & User Profiles
+<p align="center">
+  <img src="https://github.com/rrsaikat/CircularMorphProgressBarLibrary/blob/master/start.gif" height="490" width="280"/>
+</p>
 
 ## Complain Request and Status
 If user has complain in any post that contains violence, bullying, threats, hate speech, tragic events and sexually explicit contents then nobody will see the post. But user can’t remove his or her own complain.
+<p align="center">
+  <img src="https://github.com/rrsaikat/CircularMorphProgressBarLibrary/blob/master/start.gif" height="490" width="280"/>
+</p>
 
 
 
