@@ -58,4 +58,11 @@ Certified that the work contained in the project entitled “RealTimeFriendLocat
     Assistant Professor
     Electrical & Electronic Engineering (EEE) 
     Patuakhali Science & Technology University
+    
+## Follow Me On     
+<a href="www.linkedin.com/in/rezwan-rehman-969232173/"><img src="https://github.com/aritraroy/social-icons/blob/master/linkedin-icon.png?raw=true" width="60"></a>
+
+## LICENSE
+
+''''
 
